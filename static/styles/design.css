@@ -1,0 +1,93 @@
+.container{
+background: #ffebe9;
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+box-sizing: border-box;
+}
+
+.formDiv{
+background: white;
+display: flex;
+flex-direction:column;
+height: 70%;
+width: 60%;
+margin: auto auto;
+border-radius: 10px;
+/* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+padding: 10px;
+position: relative;
+}
+
+.form{
+display: flex;
+flex-direction: column;
+margin: 10px;
+}
+.heading {
+    color: #132663;
+    font-size:27px;
+    text-align: center;
+}
+
+.para{
+    margin: 0;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #132663;
+    font-weight: 600;
+}
+
+.submit{
+    width: 83px;
+    padding: 8px;
+    font-size: 16px;
+    color: white;
+    background: #fae6e4;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 10px auto;
+    margin-right: 100%;
+    cursor: pointer;
+}
+
+input:focus { 
+  outline: none !important;
+  border-color: #fae6e4;
+  box-shadow: 0 0 10px #fae6e4;
+}
+
+.man{
+  position: fixed;
+  width: 15%;
+  margin-left: -13%;
+}
+
+textarea:focus { 
+  outline: none !important;
+  border-color: #fae6e4;
+  box-shadow: 0 0 10px #fae6e4;
+  z-index: 15;
+}
+
+.textarea{
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #f8f8f8;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  font-family: 'Noto Sans Mono', sans-serif;
+}
